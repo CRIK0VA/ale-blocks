@@ -1,0 +1,28 @@
+{
+	"name": "ale-blocks",
+	"version": "0.1.0",
+	"description": "Example block scaffolded with Create Block tool.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.2.0"
+	},
+	"dependencies": {
+		"@wordpress/components": "^26.0.1",
+		"@wordpress/compose": "^6.28.0",
+		"@wordpress/core-data": "^6.28.1",
+		"@wordpress/data": "^9.21.0",
+		"@wordpress/edit-post": "^7.28.1",
+		"@wordpress/plugins": "^6.19.1"
+	}
+}
